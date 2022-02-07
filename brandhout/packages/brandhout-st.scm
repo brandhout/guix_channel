@@ -12,6 +12,6 @@
         (method git-fetch)
         (uri (git-reference
           (url "https://github.com/brandhout/poor_st_fork.git")
-          (commit "5ff2f99ba05fd3f8f5a81aed96319fe704cbc939")))
+          (commit "047dc8b575e8baca849920eab38a7892ce106881")))
         (sha256
-          (base32 "1rjv2wascds3r90gv7nrlgy2iqiqrmic48jc1sb9fgz45vh28plk"))))))
+          (base32 "0y209r8nsa5vhvxf5zsmmpqc41c9qyj99j8pmwx12nsiapqxn27i"))))))
