@@ -14,5 +14,5 @@
           (url "https://github.com/brandhout/poor_dwm_fork.git")
           (commit "4ddbef64f3ecbfcf97a4506f7c8626016dc593d6")))
         (sha256
-          (base32 "121kp67r56way37735x0b2mbjfs2r4q4v5jmja7bmcv60g7y2bfx"))))))
+          (base32 "15cvpqy814a5r6yg59y6iccszgi5h51n20rg3qhk18xqhpqa933f"))))))
 
