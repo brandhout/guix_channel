@@ -12,7 +12,7 @@
         (method git-fetch)
         (uri (git-reference
           (url "https://github.com/brandhout/poor_dwm_fork.git")
-          (commit "4ddbef64f3ecbfcf97a4506f7c8626016dc593d6")))
+          (commit "bfca63ee0a7060f19c806f5a4be2b92bb20cd905")))
         (sha256
-          (base32 "15cvpqy814a5r6yg59y6iccszgi5h51n20rg3qhk18xqhpqa933f"))))))
+          (base32 "1n5525ndalqf8iskwzaqm5p3y5wn8w1v7y0bn9asg6r9w5dzkkn7"))))))
 
