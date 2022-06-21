@@ -1,7 +1,7 @@
 (channel
   (version 0)
   (url "https://github.com/brandhout/guix_channel/")
-  (directory "brandhout")
+  ;(directory "brandhout")
   (dependencies
     (channel
       (name nonguix)
