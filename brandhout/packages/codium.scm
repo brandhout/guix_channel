@@ -1,4 +1,4 @@
-(define-module (brandhout packages vscode)
+(define-module (brandhout packages vscodium)
   #:use-module (nonguix build-system binary)
   #:use-module ((guix licenses) :prefix license:)
   #:use-module (guix download)
