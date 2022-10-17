@@ -37,10 +37,10 @@
     (sha256
      (base32 hash))))
 
-(define-public vscodium-1.70.2.22230
+(define-public vscodium-1.72.2.22289
   (package
     (name "vscodium")
-    (version "1.70.2.22230") 
+    (version "1.72.2.22289") 
     (source #f)
     (build-system binary-build-system)
     (arguments
@@ -119,7 +119,7 @@
      `(("vscodium"
         ,(make-vscodium-release-asset
           version "VSCodium"
-          "1b2603fcb28479dajwg9q2ck083fym6khjv02ax3l0p6jazjyc70"))
+          "0bc95mdl19la63yvqrpfcvq9sx68wfv60a3xrz2z5lk308khfpr6"))
        ("gcc:lib" ,gcc "lib")
        ("gcc" ,gcc "lib")
        ("glib" ,glib)
@@ -158,7 +158,7 @@
     (description "VSCodium is a community-driven, freely-licensed binary distribution of Microsoft’s editor VSCode.")
     (license license:expat)))
 
-(define-public vscodium vscodium-1.70.2.22230)
+(define-public vscodium vscodium-1.72.2.22289)
 
-    vscodium-1.70.2.22230
+    vscodium-1.72.2.22289
 
