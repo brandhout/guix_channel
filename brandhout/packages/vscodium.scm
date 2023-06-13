@@ -119,7 +119,7 @@
      `(("vscodium"
         ,(make-vscodium-release-asset
           version "VSCodium"
-          "1lh3clg3y9wg2dhpy3qm5xrw9b5ab34appb22bl3vh8vy6hlsq2v"))
+          "1w1nfjsm27v4188nwmhxdi64bz7f17hfj9fqyvydswq201g5932g"))
        ("gcc:lib" ,gcc "lib")
        ("gcc" ,gcc "lib")
        ("glib" ,glib)
