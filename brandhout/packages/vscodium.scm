@@ -37,7 +37,7 @@
     (sha256
      (base32 hash))))
 
-(define-public vscodium-11.79.0.23159
+(define-public vscodium-1.79.0.23159
  (package
     (name "vscodium")
     (version "1.79.0.23159")
