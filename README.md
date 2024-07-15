@@ -1,5 +1,5 @@
 # guix_channel
-My own custom guix package definitions which are not interesting enough to contribute
+My own custom guix package definitions which are not interesting enough to contribute, or others that still need contributing but don't yet comply to the packaging standards
 
 ## Contains
 - [Poor DWM fork](https://github.com/brandhout/poor_dwm_fork)
