@@ -1,0 +1,9 @@
+(channel
+  (version 0)
+  (url "https://github.com/brandhout/guix_channel/")
+  ;(directory "brandhout")
+  (dependencies
+    (channel
+      (name nonguix)
+      (url "https://gitlab.com/nonguix/nonguix.git")) ; binary build system
+    ))
