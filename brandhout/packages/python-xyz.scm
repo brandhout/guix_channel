@@ -33,13 +33,12 @@
    (build-system meson-build-system)
 
    (inputs 
-    (list 
-     python 
-     glibc 
-     python-cffi 
-     jack-2 
-     boost 
-     rtmidi))
+     (list python 
+           glibc 
+           python-cffi 
+           jack-2 
+           boost 
+           rtmidi))
 					; TODO
 					;(native-input (list python-cffi python-setuptools))
    (native-inputs (list python-pytest pkg-config python-setuptools))
