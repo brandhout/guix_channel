@@ -37,7 +37,6 @@
            glibc 
            python-cffi 
            jack-2 
-           boost 
            rtmidi))
 					; TODO
 					;(native-input (list python-cffi python-setuptools))
