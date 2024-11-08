@@ -27,10 +27,10 @@
   #:use-module (gnu packages pkg-config)
   #:use-module (gnu packages protobuf))
 
-(define-public open-lighting-console
+(define-public olc
   (let ((commit "e8393295f4a656dab87cbd63b6be8faad48d4c1b"))
     (package
-      (name "open-lighting-console")
+      (name "olc")
       (version "0.92.beta")
       (source
        (origin
@@ -66,7 +66,7 @@
       (native-inputs `(("gettext" ,gettext-minimal)
                        ("glib:bin" ,glib "bin")
                        ("pkg-config" ,pkg-config)))
-      (home-page "https://example.com/open-lighting-console")
+      (home-page "https://github.com/mikacousin/olc")
       (synopsis "Open Lighting Console for controlling lighting systems")
       (description
        "Open Lighting Console is an application for controlling lighting systems. It supports various protocols and devices.")
