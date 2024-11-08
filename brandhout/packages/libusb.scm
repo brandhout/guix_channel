@@ -33,7 +33,8 @@
 ;;; along with GNU Guix.  If not, see <http://www.gnu.org/licenses/>.
 
 (define-module (brandhout packages libusb)
-  #:use-module ((guix licenses) #:prefix license:)
+  #:use-module ((guix licenses)
+                #:prefix license:)
   #:use-module (guix build-system ant)
   #:use-module (guix build-system cmake)
   #:use-module (guix build-system glib-or-gtk)
@@ -69,19 +70,23 @@
     (version "1.0.26")
     (source
      (origin
-      (method url-fetch)
-      (uri (string-append "https://github.com/libusb/libusb/"
-                          "releases/download/v" version
-                          "/libusb-" version ".tar.bz2"))
-      (sha256
-       (base32 "19dmh41m0iks0vk5khlml3drvhgsnpvrbq7zl79d2m4qzihpmkhj"))))
+       (method url-fetch)
+       (uri (string-append "https://github.com/libusb/libusb/"
+                           "releases/download/v"
+                           version
+                           "/libusb-"
+                           version
+                           ".tar.bz2"))
+       (sha256
+        (base32 "19dmh41m0iks0vk5khlml3drvhgsnpvrbq7zl79d2m4qzihpmkhj"))))
     (build-system gnu-build-system)
 
     ;; XXX: Enabling udev is now recommended, but eudev indirectly depends on
     ;; libusb.
-    (arguments `(#:configure-flags '("--disable-udev")))
+    (arguments
+     `(#:configure-flags '("--disable-udev")))
     ;; (inputs `(("eudev" ,eudev)))
-
+    
     (home-page "https://libusb.info")
     (synopsis "User-space USB library")
     (description
