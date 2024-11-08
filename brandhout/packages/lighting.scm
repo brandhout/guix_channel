@@ -17,6 +17,7 @@
   #:use-module (gnu packages libftdi)
   #:use-module (gnu packages libusb)
   #:use-module (gnu packages linux)
+  #:use-module (gnu packages lighting)
   #:use-module (gnu packages gtk)
   #:use-module (gnu packages python-science)
   #:use-module (gnu packages python-xyz)
