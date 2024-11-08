@@ -2,7 +2,6 @@
   #:use-module (guix build-system gnu)
   #:use-module (guix build-system meson)
   #:use-module (guix gexp)
-  #:use-module (guix licenses)
   #:use-module (guix git-download)
   #:use-module ((guix licenses) #:prefix license:)
   #:use-module (guix packages)
@@ -73,4 +72,4 @@
     (home-page "https://example.com/open-lighting-console")
     (synopsis "Open Lighting Console for controlling lighting systems")
     (description "Open Lighting Console is an application for controlling lighting systems. It supports various protocols and devices.")
-    (license gpl3))) )
+    (license license:gpl3))) )
