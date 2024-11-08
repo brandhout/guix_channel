@@ -58,7 +58,7 @@
     (build-system pyproject-build-system)
     (arguments
      `(#:tests? #f))
-    (native-inputs (list python-pandas python-xarray))
+    (propagated-inputs (list python-pandas python-xarray))
     (home-page "https://github.com/pyet-org/pyet") ;Replace with the real home page for pyet
     (synopsis "Python package for evapotranspiration calculation")
     (description
