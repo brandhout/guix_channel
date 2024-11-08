@@ -63,5 +63,5 @@
     (synopsis "Python package for evapotranspiration calculation")
     (description
      "This package provides tools to estimate evapotranspiration using different methods.")
-    (license expat)))
+    (license license:expat)))
 
