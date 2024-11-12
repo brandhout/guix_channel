@@ -196,4 +196,3 @@ can be embedded in any application
 
 This package includes the @code{libtree-sitter} runtime library.")
   (license license:expat)))
-neovim
