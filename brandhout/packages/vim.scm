@@ -1,4 +1,4 @@
-(define-module (gnu packages vim)
+(define-module (brandhout packages vim)
 #:use-module ((guix licenses) #:prefix license:)
 #:use-module (guix packages)
 #:use-module (guix gexp)
