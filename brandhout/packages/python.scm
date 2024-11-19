@@ -44,3 +44,19 @@
     (description
      "Python-rtmidi is a Python binding for RtMidi, a set of C++ classes that provides a common API for real-time MIDI input/output across Linux (ALSA & JACK), macOS, and Windows (Multimedia Library).")
     (license license:expat)))
+
+(define-public python-airium
+  (package
+    (name "python-airium")
+    (version "0.2.6")
+    (source (origin
+              (method url-fetch)
+              (uri (pypi-uri "airium" version))
+              (sha256
+               (base32 "1r0x1gcgmb9cyj2lkbnaj4lyixjrh3754kh7qp8f7k5nk2vkdayc"))))
+    (build-system pyproject-build-system)
+    (home-page "https://github.com/Amertz08/Airium")
+    (synopsis "Python library for generating HTML")
+    (description
+     "Airium is a Python library that allows you to generate HTML using Python code.")
+    (license license:expat)))
