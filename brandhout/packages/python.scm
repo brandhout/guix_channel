@@ -44,24 +44,3 @@
     (description
      "Python-rtmidi is a Python binding for RtMidi, a set of C++ classes that provides a common API for real-time MIDI input/output across Linux (ALSA & JACK), macOS, and Windows (Multimedia Library).")
     (license license:expat)))
-
-(define-public python-pyet
-  (package
-    (name "python-pyet")
-    (version "1.3.1")
-    (source
-     (origin
-       (method url-fetch)
-       (uri (pypi-uri "pyet" version))
-       (sha256
-        (base32 "1dblsx0bv1g453hcx5vwij1zgankwgwvhwllqkn47k578h038xvy"))))
-    (build-system pyproject-build-system)
-    (arguments
-     `(#:tests? #f))
-    (propagated-inputs (list python-pandas python-xarray))
-    (home-page "https://github.com/pyet-org/pyet") ;Replace with the real home page for pyet
-    (synopsis "Python package for evapotranspiration calculation")
-    (description
-     "This package provides tools to estimate evapotranspiration using different methods.")
-    (license license:expat)))
-
